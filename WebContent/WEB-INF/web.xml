@@ -28,4 +28,31 @@
 		<url-pattern>/login</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>deleteServlet</servlet-name>
+		<servlet-class>com.dev.controller.board.DeleteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteServlet</servlet-name>
+		<url-pattern>/board/delete</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>registServlet</servlet-name>
+		<servlet-class>com.dev.controller.board.RegistServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registServlet</servlet-name>
+		<url-pattern>/board/regist</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>editServlet</servlet-name>
+		<servlet-class>com.dev.controller.board.EditServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>editServlet</servlet-name>
+		<url-pattern>/board/edit</url-pattern>
+	</servlet-mapping>
+	
 </web-app>
